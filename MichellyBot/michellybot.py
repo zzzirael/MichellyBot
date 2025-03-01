@@ -45,7 +45,7 @@ GUILD_ID = discord.Object(id=635283834467778580) #Adds the slash commands instan
 
 @client.tree.command(name='top10chall', description='Mostra qual o top 10 challengers brasil!', guild=GUILD_ID)
 async def saytopchall(interaction: discord.Interaction):
-    await interaction.response.send_message("Espera, tô pensando...")
+    await interaction.response.send_message("to pensando to pensando...")
     await interaction.followup.send(get_topchal(api_key=api_key, top=10))
 
 
