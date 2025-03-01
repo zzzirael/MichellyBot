@@ -53,6 +53,7 @@ def get_topchal(api_key, top):
 
     topchal_df.index += 1
     
+    print(topchal_df)
     return topchal_df
 
 
